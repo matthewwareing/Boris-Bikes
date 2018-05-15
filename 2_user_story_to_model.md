@@ -15,3 +15,5 @@ Line number: 1
 Solution: 
 class DockingStation 
 end
+
+Rspec throws the same error (NameError: uninitialized constant) but from a different place; ./spec/DockingStation_spec.rb:3, rather than irb:1.
