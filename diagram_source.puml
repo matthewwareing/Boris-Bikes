@@ -1,0 +1,6 @@
+```puml
+person -> docking_station: see_availability
+docking_station --> person: [bike array]
+person -> docking_station: release_bike
+docking_station --> person: Bike Object
+```
