@@ -1,7 +1,9 @@
-describe "DockingStation" do
+require 'DockingStation.rb'
 
-  it "returns a bike when sent release_bike message" do
-    expect(DockingStation.release_bike).to eq "bike"
-  end
+describe DockingStation do
+
+  # it "returns a bike when sent release_bike message" do
+  #  expect(DockingStation.release_bike).to eq "bike"
+  # end
 
 end
