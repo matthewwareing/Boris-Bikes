@@ -19,3 +19,5 @@ end
 Rspec throws the same error (NameError: uninitialized constant) but from a different place; ./spec/DockingStation_spec.rb:3, rather than irb:1.
 
 **challenge 7**: Calling release_bike on a new DockingStation object throws a NoMethodError, because we have not yet created the release_bike method.
+
+**challenge 8**: We created the release_bike station for the docking station class and rephrased the test using one-liner syntax. 
