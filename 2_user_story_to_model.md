@@ -8,3 +8,10 @@ like, use, release, see
 |bike||
 
 ![Domain Model Diagram](domain_model_1.png)
+
+Error type: NameError: uninitialized constant DockingStation (https://ruby-doc.org/core-2.2.0/NameError.html)
+Path: /Users/nickrichardson/.rvm/rubies/ruby-2.4.1/bin/bin/irb:11:in`<main>'
+Line number: 1
+Solution: 
+class DockingStation 
+end
