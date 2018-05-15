@@ -3,9 +3,9 @@ like, use, release, see
 
 |objects|messages|
 |:--|:--|
-|docking_station|release_bike|
-|person|see_availability|
-|bike||
+|Person||
+|Bike|working?|
+|DockingStation|release_bike|
 
 ![Domain Model Diagram](domain_model_1.png)
 
@@ -17,3 +17,5 @@ class DockingStation
 end
 
 Rspec throws the same error (NameError: uninitialized constant) but from a different place; ./spec/DockingStation_spec.rb:3, rather than irb:1.
+
+**challenge 7**: Calling release_bike on a new DockingStation object throws a NoMethodError, because we have not yet created the release_bike method.
